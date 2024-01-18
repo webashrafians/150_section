@@ -1,0 +1,79 @@
+
+.section-padding {
+    position: relative;
+    height: 100vh;
+}
+
+.section-bg{
+    background-image: url('/assets/img/img_bg.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.section-bg:after {
+    background: #31d6be;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.9;
+}
+
+.absolute-text{
+    position: absolute;
+    rotate: -90deg;
+    color: #fff;
+    left: -24px;
+    bottom: 315px;
+}
+
+// contact form
+.contact-form{
+    padding: 100px 0;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+input[type="submit"]{
+    width: auto;
+    padding: 15px 30px;
+    color: #31d6be;
+    font-weight: 700;
+}
+// appointment-text
+.appointment-text{
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+.boxed-btn{
+    background: #31d6be;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.appointment-text ul {
+    margin-bottom: 42px;
+}
+
+.appointment-text ul li {
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.appointment-text ul li i {
+    color: #31d6be;
+    padding-right: 10px;
+}
